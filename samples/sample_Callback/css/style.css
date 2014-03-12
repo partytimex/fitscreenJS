@@ -1,0 +1,131 @@
+@charset "utf-8";
+html{font:16px/1.5 Arial,PMingLiU,sans-serif; color: #000; word-wrap:break-word; -webkit-text-size-adjust:none; background:#fdd100; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,textarea,p,blockquote,th,td,figure{margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; }
+table{width:auto; border-collapse:collapse;border-spacing:0;}
+fieldset,img{border:0;}
+ol,ul{list-style:none;}
+caption,th{text-align:left;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}
+input,textarea,select{*font-size:100%;}
+textarea{resize:none;}
+a{text-decoration:none; outline:0;}
+img{display:block;}
+.clearfix:after,header:after,.main:after,.lanbox:after,header:after,.gallery:after{content: "\0020"; display: block; height: 0; clear: both;}
+.clearfix,header,.main,.lanbox,header,.gallery{zoom: 1;}
+.fl,.leftbox{ float:left; }
+.fr,.rightbox{ float:right; }
+.hack{ zoom:1; }
+.nobg{ background:none; }
+.icon,.txt,.mod .main .title,.refresh
+,.about .main .title,.map .maincntbox .leftbox .title
+,.menup .slidebox .toleft,.menup .slidebox .toright
+,.menup .slidebox .tagbox span,.index .tagbox span,.shadowCnt .closebtn,.staff .main .title{ text-indent:-9999px; display:inline-block; background:url(../images/png24.png) no-repeat; }
+.cubebtn,.btn,.long_ye_btn{ background:url(../images/png24.png) no-repeat; }
+.imgbox{ overflow:hidden; }
+.imgbox img{ display:inline; vertical-align: middle; }
+
+/* wrap:1280,800 */
+.wrap{ position:absolute; width:1280px; left:50%; top:50%; margin:-400px 0 0 -640px; margin:-400px 0 0 -640px\9; }
+.main{ position:relative; height:630px; background:#000; overflow: hidden; }
+.footer{ height:60px; line-height:60px; text-align:right; font-size: 13px; }
+.footer a{ color:#000; }
+.footer a:hover{ text-decoration:underline; }
+.footer .copyright{ padding:0 40px 0 24px; }
+.footer em{ padding:0 14px; font-style:normal; }
+
+/* scrollBar */
+.j_scrollbox,.j_scrollbox .j_cntbox,.j_scrollbox .j_cntwrap{ position:relative; } 
+.j_scrollbox{ width:467px; height:538px; }/*宽高为内容显示的最大尺寸*/
+.j_scrollbox .j_cntwrap,.j_scrollbox .j_bar{ height:100%; }
+.j_scrollbox .j_cntwrap{ width:100%; overflow:hidden; }
+.j_scrollbox .j_bar,.j_scrollbox .j_point{ right:-5px; position:absolute; background:#000; width:1px; }
+.j_scrollbox .j_bar{ top:0; }
+.j_scrollbox .j_point{ width:7px; right:-3px; height:30px; outline:none; }
+.j_scrollbox .j_bar.yellow,.j_scrollbox .j_bar.yellow .j_point{ background:#FDD100; }
+
+.logo{ display:inline-block; margin:13px 27px 0 0; width:150px; height:76px; }
+.icon_fb,.icon_ytb{ height:22px; }
+.icon_fb{ width:23px; background-position:-520px -480px; }
+.icon_ytb{ width:55px; background-position:-560px -480px; }
+header .icon{ margin:54px 27px 0 0; vertical-align: top; }
+header .leftbox{ margin:0 0 0 40px; font-size: 0; }
+header .rightbox{ padding:19px 40px 0 0;}
+
+.menu,.lanbox{ float:right; }
+.lanbox{ font-size:0; margin:0 0 19px; line-height: 14px; height:14px; position:relative; }
+.lanbox .txt{ margin:0 0 0 8px; }
+.lanbox a,.lanbox .txt{ cursor:pointer; position:absolute; right:0; top:0; width:34px; }
+.lanbox a{ top: -18px; width: 121px; height:50px; }
+.lanbox .txt{ margin:17px 0 0px; }
+
+/* 中文 */
+.lanbox .txt1{ width:26px; height:17px; background-position:-687px -560px; }
+/* eng */
+.lanbox .txt2{ width:26px; height:17px; background-position:-590px -560px; }
+
+.menu{ font-size:0; clear:right; +letter-spacing:-1px; }
+.menu a,.menu .curr{ vertical-align:top; width:123px; height:58px; text-align:center; line-height:58px; display:inline-block; background:url(../images/menu_top_bg.jpg) no-repeat #000; }
+.menu .txt{ cursor:pointer; vertical-align:middle; *margin: 0 0 0 -3px; }
+.menu .curr .txt{ cursor:default; }
+
+/* 繁體 */
+/* 關於misocool */
+.tc .menu .txt1{ width:61px; height:30px; background-position:-1px 0; }
+.tc .menu a:hover .txt1,.tc .menu .curr .txt1{ background-position:-1px -45px; }
+/* 餐目 */
+.tc .menu .txt2{ width:30px; height:14px; background-position:-89px 0; }
+.tc .menu a:hover .txt2,.tc .menu .curr .txt2{ background-position:-90px -45px; }
+/* COOL爆潮食 */
+.tc .menu .txt3{ width:48px; height:31px; background-position:-154px 0; }
+.tc .menu a:hover .txt3,.tc .menu .curr .txt3{ background-position:-154px -45px; }
+/* COOL動向 */
+.tc .menu .txt4{ width:45px; height:30px; background-position:-231px 0; }
+.tc .menu a:hover .txt4,.tc .menu .curr .txt4{ background-position:-231px -44px; }
+/* 分店地址 */
+.tc .menu .txt5{ width:61px; height:14px; background-position:-312px 0; }
+.tc .menu a:hover .txt5,.tc .menu .curr .txt5{ background-position:-312px -45px; }
+/* 媒體報導 */
+.tc .menu .txt6{ width:60px; height:16px; background-position:-405px 0; }
+.tc .menu a:hover .txt6,.tc .menu .curr .txt6{ background-position:-405px -45px; }
+
+/* 聯絡我們 */
+.mod_contact .main .title{ width:245px; height:42px; overflow:hidden; background-position:-251px -770px; margin-bottom: 21px; }
+.tc.mod_contact .main .title{ width:175px; height:42px; background-position:0 -767px; }
+
+.mod .main{ position:relative; padding:0 70px; }
+.mod .main .imgbox{ left:51px; top:37px; border:9px solid #c7d800; width:342px; height:247px; position:absolute; }
+.mod .main .scrollbarwrap{ margin:50px 0 0; }
+.mod .main .j_cntwrap{ color:#fff; } 
+.mod .main .j_bar .j_point,.mod .main .j_bar{ background:#FDD100; }
+.mod .main .j_bar{ right:-54px; }
+.mod .j_scrollbox{ width:1078px; }
+
+/*for iPad*/
+html{font:16px/1.5 Arial; }
+.menu{ }
+.menu a, .menu .curr{ display:block; margin-right:-1px; float:left; background-image:url(about:blank); border-radius:7px 7px 0 0; }
+.bk_bg{ background:#000; }
+.main{ position:relative; top:-1px; }
+.j_scrollbox .j_cntwrap{ padding-right:54px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

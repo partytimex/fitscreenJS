@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <meta name="viewport" content="width=device-width">
+
+  <title>fitScreen.js</title>
+
+  <!-- Flatdoc -->
+  <script src='js/jquery.js'></script>
+  <script src='js/jquery-ui.js'></script>
+  <script src='js/legacy.js'></script>
+  <script src='js/flatdoc.js'></script>
+
+  <!-- Flatdoc theme -->
+  <link  href='css/theme_white/style.css' rel='stylesheet'>
+  <script src='js/theme_white/script.js'></script>
+
+  <!-- Initializer -->
+  <script>
+    Flatdoc.run({
+      fetcher: Flatdoc.file('fitScreen.md')
+    });
+    $(document).on('flatdoc:ready', function() {
+      $('li.level-1:first-child').remove();
+    });
+  </script>
+  <style>
+  </style>
+</head>
+<body role='flatdoc'>
+
+  <div class='title-area title-card'>
+    <img src='images/blur.jpg' alt='' class='bg'>
+    <div class='in'>
+      <div class='headline'>
+        <h1>fitScreen.js</h1>
+        <p>用於滿屏顯示頁面.</p>
+        <h5><span>Documentation</span></h5>
+      </div>
+    </div>
+  </div>
+
+  <div class='header'>
+    <div class='left'>
+      <h1 role='flatdoc-title'></h1>
+    </div>
+  </div>
+
+  <div role='flatdoc' class='content-root'>
+    <div class='menubar'>
+      <div class='section'>
+        <span class='big button'>fitScreen.js</span>
+      </div>
+      <div class='menu section' role='flatdoc-menu'></div>
+    </div>
+    <div role='flatdoc-content' class='content'></div>
+  </div>
+
+</body>
+</html>

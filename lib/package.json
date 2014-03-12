@@ -1,0 +1,20 @@
+{
+  "name": "fitScreen",
+  "version": "0.0.1",
+  "description": "A simple library for resizing web page to fit mobile screen",
+  "main": "fitScreen.js",
+  "author": "Jimvin",
+  "license": "BSD",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/facebook/rebound.git"
+  },
+  "bugs": {
+    "url": "https://github.com/facebook/rebound/issues"
+  },
+  "keywords": [
+    "fitScreen",
+    "viewport"
+  ]
+}
